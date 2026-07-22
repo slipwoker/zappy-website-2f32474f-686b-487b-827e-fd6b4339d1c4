@@ -623,6 +623,252 @@
     <!-- Cookie Consent -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <!-- Mickidum Accessibility Toolbar lazy-loaded by runtime -->
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-facts-section {
+  position: relative;
+  background-color: var(--bg-dark);
+  background-image:
+    radial-gradient(ellipse at 15% 20%, rgba(143, 216, 210, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 80%, rgba(217, 76, 69, 0.04) 0%, transparent 50%),
+    linear-gradient(180deg, #20252A 0%, #1A1E22 100%);
+  color: var(--text-light);
+  padding: 80px 16px;
+  overflow: hidden;
+  direction: rtl;
+}
+
+.home-facts-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Header */
+.home-facts-section__header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.home-facts-section__overline {
+  display: inline-block;
+  font-family: 'Heebo', 'Noto Sans Hebrew', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--secondary);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.home-facts-section__title {
+  font-family: 'Noto Serif Hebrew', 'Cormorant Garamond', 'Source Serif 4', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-light);
+  margin: 0 0 16px 0;
+  max-width: none !important;
+}
+
+.home-facts-section__subtitle {
+  font-family: 'Heebo', 'Noto Sans Hebrew', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-light);
+  opacity: 0.8;
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Grid */
+.home-facts-section__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 56px;
+  direction: rtl;
+}
+
+/* Cards */
+.home-facts-section__card {
+  background: rgba(245, 235, 216, 0.04);
+  border: 1px solid rgba(143, 216, 210, 0.12);
+  border-radius: 12px;
+  padding: 28px;
+  backdrop-filter: blur(8px);
+  transition: border-color 0.3s ease, background 0.3s ease;
+  min-width: 0;
+}
+
+.home-facts-section__card:hover {
+  background: rgba(245, 235, 216, 0.07);
+  border-color: rgba(143, 216, 210, 0.25);
+}
+
+.home-facts-section__card-icon-wrapper {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(143, 216, 210, 0.08);
+  border-radius: 8px;
+}
+
+.home-facts-section__card-icon {
+  width: 32px;
+  height: 32px;
+  color: var(--secondary);
+}
+
+.home-facts-section__card-title {
+  font-family: 'Noto Serif Hebrew', 'Cormorant Garamond', 'Source Serif 4', serif;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-light);
+  margin: 0 0 16px 0;
+  text-align: start;
+}
+
+.home-facts-section__card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-facts-section__card-item {
+  font-family: 'Heebo', 'Noto Sans Hebrew', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-light);
+  opacity: 0.85;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: start;
+}
+
+.home-facts-section__card-bullet {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  min-width: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  margin-top: 7px;
+  opacity: 0.7;
+}
+
+/* Closing */
+.home-facts-section__closing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  direction: rtl;
+}
+
+.home-facts-section__image-wrapper {
+  flex-shrink: 0;
+  width: 45%;
+  max-width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(143, 216, 210, 0.15);
+}
+
+.home-facts-section__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+}
+
+.home-facts-section__closing-text {
+  font-family: 'Heebo', 'Noto Sans Hebrew', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: var(--text-light);
+  opacity: 0.85;
+  flex: 1;
+  text-align: start;
+  margin: 0;
+}
+
+/* Decorative Compass */
+.home-facts-section__compass {
+  position: absolute;
+  bottom: 20px;
+  inset-inline-start: 20px;
+  width: 180px;
+  height: 180px;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.home-facts-section__compass svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-facts-section {
+    padding: 60px 16px;
+  }
+
+  .home-facts-section__header {
+    margin-bottom: 36px;
+  }
+
+  .home-facts-section__title {
+    font-size: 1.75rem;
+  }
+
+  .home-facts-section__grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+  }
+
+  .home-facts-section__card {
+    padding: 20px;
+  }
+
+  .home-facts-section__closing {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .home-facts-section__image-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .home-facts-section__compass {
+    width: 120px;
+    height: 120px;
+    bottom: 10px;
+    inset-inline-start: 10px;
+    opacity: 0.4;
+  }
+}
+</style>
     <style id="zappy-critical-above-fold-css">
 html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{box-sizing:inherit}body{margin:0;min-width:320px;overflow-x:clip}img,svg,video{max-width:100%;height:auto}main{display:block}.container{width:min(100% - 32px,1200px);margin-inline:auto}.navbar,nav.navbar,header .navbar,header[role="banner"]{position:relative;z-index:1000;width:100%}.nav-container,.navbar .container{display:flex;align-items:center;justify-content:space-between;min-height:64px}.logo,.logo-link img{display:block;width:35px;height:35px;object-fit:contain}.nav-menu,#navMenu{list-style:none;margin:0;padding:0}.navbar a,.nav-menu a,#navMenu a,.navbar .nav-links a{color:inherit;text-decoration:none}.navbar .sub-menu,.nav-menu .sub-menu,#navMenu .sub-menu{display:none}.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands{display:inline-block;min-width:1em;text-align:center}html:not(#zappy-noop)[data-zappy-site-type="ecommerce"] .phone-header-btn,html:not(#zappy-noop) .navbar:has(.nav-ecommerce-icons)>.phone-header-btn{display:none!important;visibility:hidden!important;width:0!important;height:0!important;pointer-events:none!important}.zappy-preview-empty-store-cta{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}.zappy-catalog-menu{background:var(--surface-color,var(--surface,linear-gradient(135deg,#f8f9fa 0%,#fff 100%)));border-bottom:1px solid var(--border-color,#e5e7eb);padding:0;position:sticky;top:0;z-index:90}.zappy-catalog-menu[dir=rtl],.zappy-catalog-menu.rtl{direction:rtl}.zappy-catalog-menu[dir=ltr],.zappy-catalog-menu.ltr{direction:ltr}.catalog-menu-container{max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 24px;overflow:visible}.catalog-menu-categories,.catalog-menu-list{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.catalog-menu-item{display:inline-flex;align-items:center;padding:8px 16px;font-size:14px;font-weight:500;color:var(--text-color,var(--text,#374151));text-decoration:none;border-radius:20px;white-space:nowrap}.catalog-menu-all{background:var(--primary-color,var(--primary,#111));color:var(--text-light,#fff)!important}.catalog-menu-parent{position:relative;display:inline-flex;align-items:center}.catalog-menu-trigger{display:inline-flex;align-items:center;gap:6px}.catalog-menu-chevron{flex-shrink:0}.catalog-menu-parent>.sub-menu{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}.hero-section,.index-hero-section,section[class*="hero"]{position:relative;overflow:hidden}.hero-section,.index-hero-section{min-height:560px}section[data-hero-type*="fullscreen"]{min-height:100vh}.hero-bg-wrapper,.hero-bg-image,section[class*="hero"] [class*="hero-bg"]{position:absolute;inset:0;width:100%;height:100%}.hero-bg-wrapper img,.hero-bg-image img,section[class*="hero"] [data-hero-bg],section[class*="hero"] img[data-hero-background="true"]{width:100%!important;height:100%!important;object-fit:cover!important;display:block}.hero-content,section[class*="hero"] .container{position:relative;z-index:2}@media(max-width:768px){:root{--header-height:72px;--total-header-height:72px;--zappy-mobile-menu-top:72px}html[data-zappy-site-type="ecommerce"] body{padding-top:var(--total-header-height,72px)}html[data-zappy-site-type="ecommerce"] body>nav.navbar,html[data-zappy-site-type="ecommerce"] body>.navbar:not(.zappy-catalog-menu){position:fixed!important;top:0;left:0;right:0;z-index:100000;width:100%;margin-bottom:0}.zappy-catalog-menu{position:fixed;top:var(--header-height,72px);left:0;right:0;z-index:99999}.nav-container,.navbar .container{min-height:60px}.nav-menu,#navMenu{max-width:100vw;overflow-x:hidden}.hero-section,.index-hero-section,section[class*="hero"],section[data-hero-type*="fullscreen"]{min-height:100svh}.hero-bg-wrapper,.hero-bg-image,.hero-scrim{min-height:100svh}}
 
@@ -1437,61 +1683,108 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 
 
 
-<section id="facts" class="facts-section" aria-labelledby="facts-heading">
-  <div class="facts-container">
-    <h2 id="facts-heading" class="facts-title">חמישה דברים שלא ידעת על ניואה</h2>
-    <div class="facts-list">
-      <!-- Card 1 -->
-      <article class="fact-card">
-        <div class="fact-number-wrapper">
-          <span class="fact-number" aria-hidden="true">1</span>
+<section class="home-facts-section" data-layout-spec="Home-facts" id="facts">
+  <div class="home-facts-section__container">
+    <div class="home-facts-section__header">
+      <span class="home-facts-section__overline">גלו את ניואה</span>
+      <h2 class="home-facts-section__title">הכירו את מדינת האי הקטנה</h2>
+      <p class="home-facts-section__subtitle">ניואה היא אחד המקומות המיוחדים והמבודדים בעולם. הכירו את הגיאוגרפיה, הממשל, הכלכלה והסביבה של מדינת האי הקטנה והמרתקת הזו.</p>
+    </div>
+
+    <div class="home-facts-section__grid">
+      <!-- Card 1: Geography & Climate -->
+      <article class="home-facts-section__card">
+        <div class="home-facts-section__card-icon-wrapper">
+          <svg class="home-facts-section__card-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="20" stroke="var(--secondary)" stroke-width="1.5" stroke-dasharray="4 3"></circle>
+            <path d="M24 4C24 4 36 14 36 24C36 34 24 44 24 44C24 44 12 34 12 24C12 14 24 4 24 4Z" stroke="var(--secondary)" stroke-width="1.5" fill="none"></path>
+            <circle cx="24" cy="20" r="3" fill="var(--accent)" opacity="0.8"></circle>
+          </svg>
         </div>
-        <div class="fact-content">
-          <h3 class="fact-card-title">מבנה גאוגרפי ייחודי</h3>
-          <p class="fact-card-text">ניואה היא אי אלמוגים מורם (Upraised Coral Atoll) מהגדולים בעולם, המכונה 'הסלע של פולינזיה' (Rock of Polynesia).</p>
-        </div>
+        <h3 class="home-facts-section__card-title">גיאוגרפיה ואקלים</h3>
+        <ul class="home-facts-section__card-list">
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>מיקום: דרום האוקיינוס השקט, 2,400 ק"מ צפון-מזרחית לניו זילנד</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>שטח: כ-261 קמ"ר — אחד מאיי האלמוגים המורמים הגדולים בעולם</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>עיר בירה: אלופי (Alofi) — אחת מערי הבירה הקטנות בעולם</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>אקלים טרופי חמים: ממוצע שנתי של כ-27°C, עונה גשומה בין נובמבר לאפריל</li>
+        </ul>
       </article>
-      <!-- Card 2 -->
-      <article class="fact-card">
-        <div class="fact-number-wrapper">
-          <span class="fact-number" aria-hidden="true">2</span>
+
+      <!-- Card 2: Government & Regime -->
+      <article class="home-facts-section__card">
+        <div class="home-facts-section__card-icon-wrapper">
+          <svg class="home-facts-section__card-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="22" width="28" height="20" rx="2" stroke="var(--secondary)" stroke-width="1.5"></rect>
+            <path d="M16 22V14C16 10.6863 18.6863 8 22 8H26C29.3137 8 32 10.6863 32 14V22" stroke="var(--secondary)" stroke-width="1.5"></path>
+            <circle cx="24" cy="32" r="3" fill="var(--accent)" opacity="0.8"></circle>
+            <path d="M24 35V40" stroke="var(--accent)" stroke-width="1.5" opacity="0.8"></path>
+          </svg>
         </div>
-        <div class="fact-content">
-          <h3 class="fact-card-title">מעמד בין-לאומי</h3>
-          <p class="fact-card-text">ניואה היא מדינה בעלת ממשל עצמי דמוקרטי מלא בזיקה חופשית (Free Association) עם ניו זילנד, והיא מקיימת יחסים דיפלומטיים עצמאיים עם עשרות מדינות, לרבות מדינת ישראל.</p>
-        </div>
+        <h3 class="home-facts-section__card-title">משטר וממשל</h3>
+        <ul class="home-facts-section__card-list">
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>דמוקרטיה פרלמנטרית עצמאית במסגרת הסדר של ממשל עצמי חופשי עם ניו זילנד</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>האסיפה המחוקקת של ניואה: 20 חברים (14 נציגי מחוזות ו-6 נציגים כלליים)</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>ראש הממשלה נבחר על ידי האסיפה ומנהיג את הממשלה</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>מדיניות חוץ עצמאית: חברה באונסק"ו, ארגון הבריאות העולמי, ופורום איי האוקיינוס השקט</li>
+        </ul>
       </article>
-      <!-- Card 3 -->
-      <article class="fact-card">
-        <div class="fact-number-wrapper">
-          <span class="fact-number" aria-hidden="true">3</span>
+
+      <!-- Card 3: Economy & Infrastructure -->
+      <article class="home-facts-section__card">
+        <div class="home-facts-section__card-icon-wrapper">
+          <svg class="home-facts-section__card-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 14H42V38H6V14Z" stroke="var(--secondary)" stroke-width="1.5"></path>
+            <path d="M6 14L14 6H34L42 14" stroke="var(--secondary)" stroke-width="1.5"></path>
+            <circle cx="24" cy="26" r="5" fill="var(--accent)" opacity="0.8"></circle>
+            <path d="M20 26H28" stroke="var(--bg-dark)" stroke-width="1.5"></path>
+          </svg>
         </div>
-        <div class="fact-content">
-          <h3 class="fact-card-title">שפות רשמיות</h3>
-          <p class="fact-card-text">השפות הרשמיות באי הן ניואנית (Vagahau Niue) ואנגלית.</p>
-        </div>
+        <h3 class="home-facts-section__card-title">כלכלה ותשתיות</h3>
+        <ul class="home-facts-section__card-list">
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>חקלאות בקנה מידה קטן: טארו, קוקוס, וניל — גידולים מסורתיים באי</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>תיירות אקולוגית: יעד מבוקש לצלילה, שנירקול וצפייה בלווייתנים</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>בולאות ומטבעות אספנות: הנפקת בולי דואר ייחודיים ומטבעות זיכרון</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>חלוצת האינטרנט האלחוטי: המדינה הראשונה בעולם שסיפקה אינטרנט אלחוטי חינם לכל התושבים (2003)</li>
+        </ul>
       </article>
-      <!-- Card 4 -->
-      <article class="fact-card">
-        <div class="fact-number-wrapper">
-          <span class="fact-number" aria-hidden="true">4</span>
+
+      <!-- Card 4: Environment & Sustainability -->
+      <article class="home-facts-section__card">
+        <div class="home-facts-section__card-icon-wrapper">
+          <svg class="home-facts-section__card-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 6C24 6 8 14 8 26C8 38 24 42 24 42C24 42 40 38 40 26C40 14 24 6 24 6Z" stroke="var(--secondary)" stroke-width="1.5"></path>
+            <path d="M24 10V38" stroke="var(--secondary)" stroke-width="1.5"></path>
+            <path d="M14 20H34" stroke="var(--secondary)" stroke-width="1.5"></path>
+            <circle cx="24" cy="18" r="2" fill="var(--accent)" opacity="0.8"></circle>
+          </svg>
         </div>
-        <div class="fact-content">
-          <h3 class="fact-card-title">שמורת שמי לילה בינלאומית</h3>
-          <p class="fact-card-text">ניואה היא המדינה הראשונה בעולם שהוכרזה כולה כ'שמורת שמי לילה בינלאומית' (International Dark Sky Sanctuary).</p>
-        </div>
-      </article>
-      <!-- Card 5 -->
-      <article class="fact-card">
-        <div class="fact-number-wrapper">
-          <span class="fact-number" aria-hidden="true">5</span>
-        </div>
-        <div class="fact-content">
-          <h3 class="fact-card-title">מטבע וכלכלה</h3>
-          <p class="fact-card-text">המטבע הרשמי הוא דולר ניו-זילנדי (NZD), לצד הנפקות ייחודיות של מטבעות אספנים וזהב.</p>
-        </div>
+        <h3 class="home-facts-section__card-title">סביבה וקיימות</h3>
+        <ul class="home-facts-section__card-list">
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>הפארק הימי ניואה נוקוטולואה: שמורה ימית המכסה כ-40% מהאזור הכלכלי הבלעדי של המדינה</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>תוכניות לאומיות למעבר לאנרגיה מתחדשת: שאיפה לעצמאות אנרגטית ממקורות נקיים</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>הגנה על מערכות אקולוגיות של שוניות אלמוגים: ניטור ושימור בתי גידול ימיים רגישים</li>
+          <li class="home-facts-section__card-item"><span class="home-facts-section__card-bullet"></span>קידום תיירות אקולוגית בת-קיימא המכבדת את הסביבה והתרבות המקומית</li>
+        </ul>
       </article>
     </div>
+
+    <!-- Image and closing note -->
+    <div class="home-facts-section__closing">
+      <div class="home-facts-section__image-wrapper">
+        <img data-context="A serene aerial view of Niue's rugged coral coastline with turquoise Pacific Ocean waves gently crashing against the limestone cliffs, lush green tropical vegetation covering the island interior under a bright blue sky with soft white clouds" width="600" height="400" src="/assets/israel-niue-friendship-initiative-non-profit-paradiplomacy-inter-section-home-facts-home-facts-image-1.webp" alt="נוף אווירי מרהיב של חופי האלמוגים בניואה" class="home-facts-section__image" loading="lazy" decoding="async" fetchpriority="low">
+      </div>
+      <p class="home-facts-section__closing-text">ניואה היא אוצר נדיר באוקיינוס השקט — מדינה קטנה עם תרבות עשירה, נופים עוצרי נשימה, וקהילה חמה ומסבירת פנים. יוזמת הידידות ישראל-ניואה גאה לחבר בין שני העמים הייחודיים הללו.</p>
+    </div>
+  </div>
+  
+  <!-- Decorative compass rose (background motif) -->
+  <div class="home-facts-section__compass" aria-hidden="true">
+    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="80" stroke="var(--secondary)" stroke-width="0.5" opacity="0.15"></circle>
+      <circle cx="100" cy="100" r="70" stroke="var(--secondary)" stroke-width="0.5" opacity="0.1"></circle>
+      <path d="M100 20L108 92L180 100L108 108L100 180L92 108L20 100L92 92Z" fill="var(--secondary)" opacity="0.08"></path>
+      <circle cx="100" cy="100" r="4" fill="var(--accent)" opacity="0.15"></circle>
+    </svg>
   </div>
 </section>
 
@@ -1740,17 +2033,10 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
             <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
           </li>
-          <li><a href="/">בית</a></li>
+          
         </ul>
       </div>
-      <div class="footer-col footer-hours-col">
-        <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/">בית</a></li>
-          <li><a href="/">בית</a></li>
-          <li><a href="/">בית</a></li>
-        </ul>
-      </div>
+      
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
