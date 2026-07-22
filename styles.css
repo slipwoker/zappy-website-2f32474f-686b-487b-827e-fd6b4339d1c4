@@ -5389,6 +5389,224 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     text-align: center;
   }
 }
+
+/* Cloned section from URL */
+.niue-editorial-section {
+  background: #ffffff;
+  padding: 80px 20px;
+  font-family: system-ui, sans-serif;
+  color: #1a1a2e;
+  line-height: 1.6;
+}
+
+.niue-editorial-container {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+/* Hero Banner */
+.niue-hero-banner {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.niue-hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 480px;
+}
+
+/* Secondary Media Block */
+.niue-media-block {
+  background: #1a1a2e;
+  padding: 40px 30px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.niue-media-text {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+/* Introductory Paragraphs */
+.niue-intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.niue-intro-paragraph {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #0a0a0a;
+  margin: 0;
+  line-height: 1.7;
+}
+
+/* Our Mission Subsection */
+.niue-mission {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.niue-mission-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #333;
+  margin: 0;
+}
+
+.niue-mission-content {
+  padding-right: 0;
+}
+
+.niue-mission-list {
+  list-style: decimal;
+  padding-right: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.niue-mission-item {
+  font-size: 0.875rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Board Members Subsection */
+.niue-board {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.niue-board-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #333;
+  margin: 0;
+}
+
+.niue-board-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.niue-board-member {
+  font-size: 0.95rem;
+  color: #1a1a2e;
+}
+
+.member-name {
+  font-weight: 600;
+}
+
+.member-role {
+  font-style: italic;
+  font-weight: 300;
+  color: #555;
+}
+
+/* Pull Quote Block */
+.niue-pullquote-container {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.niue-pullquote {
+  margin: 0;
+  padding: 24px 28px;
+  background: #f9f9f9;
+  border-right: 4px solid var(--primary, #0E6B73);
+  border-radius: 0 8px 8px 0;
+}
+
+.niue-quote-text {
+  font-size: 1rem;
+  font-style: italic;
+  color: #2a2a2a;
+  margin: 0 0 12px 0;
+  line-height: 1.7;
+}
+
+.niue-quote-attribution {
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 500;
+  color: #555;
+  display: block;
+  text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .niue-editorial-section {
+    padding: 50px 16px;
+  }
+
+  .niue-editorial-container {
+    gap: 40px;
+  }
+
+  .niue-intro-paragraph {
+    font-size: 1.25rem;
+  }
+
+  .niue-media-text {
+    font-size: 1.25rem;
+  }
+
+  .niue-media-block {
+    padding: 30px 20px;
+  }
+
+  .niue-pullquote {
+    padding: 20px;
+  }
+
+  .niue-hero-image {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .niue-intro-paragraph {
+    font-size: 1.1rem;
+  }
+
+  .niue-media-text {
+    font-size: 1.1rem;
+  }
+
+  .niue-mission-item {
+    font-size: 0.8rem;
+  }
+
+  .niue-board-member {
+    font-size: 0.85rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
