@@ -5607,6 +5607,273 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     font-size: 0.85rem;
   }
 }
+
+/* AI-generated section */
+.au-about-section {
+  background: linear-gradient(180deg, #fdfcf8 0%, #f8f6f0 100%);
+  padding: 80px 20px 90px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  color: #2c2c2c;
+}
+
+.au-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.au-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.au-flags {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  letter-spacing: 8px;
+}
+
+.au-flag-separator {
+  font-size: 2rem;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.au-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin: 0 0 12px;
+  color: #1a2e22;
+  letter-spacing: -0.5px;
+}
+
+.au-subtitle {
+  font-size: 1.2rem;
+  color: #5a6c62;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Story Section */
+.au-story {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+}
+
+.au-story-image {
+  flex: 1 1 400px;
+  min-width: 280px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(14, 107, 115, 0.1);
+  aspect-ratio: 3 / 2;
+}
+
+.au-story-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.au-story-image:hover .au-story-img {
+  transform: scale(1.03);
+}
+
+.au-story-text {
+  flex: 1 1 300px;
+}
+
+.au-story-paragraph {
+  font-size: 1.08rem;
+  line-height: 1.9;
+  color: #3d4f45;
+  margin: 0 0 18px;
+}
+
+.au-story-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+/* Team Grid */
+.au-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 28px;
+  margin-bottom: 60px;
+}
+
+.au-team-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(14, 107, 115, 0.08);
+}
+
+.au-team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(14, 107, 115, 0.13);
+}
+
+.au-card-image-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #eef5f3;
+}
+
+.au-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.au-team-card:hover .au-card-img {
+  transform: scale(1.06);
+}
+
+.au-card-body {
+  padding: 20px 18px 24px;
+  text-align: center;
+}
+
+.au-card-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: #1a2e22;
+}
+
+.au-card-role {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #0E6B73;
+  margin: 0 0 10px;
+  letter-spacing: 0.3px;
+}
+
+.au-card-bio {
+  font-size: 0.88rem;
+  color: #5a6c62;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* CTA */
+.au-cta {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.au-cta-text {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #1a2e22;
+  margin: 0 0 24px;
+  letter-spacing: -0.3px;
+}
+
+.au-cta-button {
+  display: inline-block;
+  padding: 14px 44px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: var(--gradient-primary, linear-gradient(135deg, #1A2E22 0%, #2D6A4F 100%));
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(14, 107, 115, 0.25);
+  cursor: pointer;
+}
+
+.au-cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(14, 107, 115, 0.35);
+  background: linear-gradient(135deg, #2D6A4F 0%, #1A2E22 100%);
+}
+
+.au-cta-button:focus-visible {
+  outline: 3px solid #8FD8D2;
+  outline-offset: 3px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .au-about-section {
+    padding: 50px 16px 60px;
+  }
+
+  .au-title {
+    font-size: 2rem;
+  }
+
+  .au-subtitle {
+    font-size: 1.05rem;
+  }
+
+  .au-flags {
+    font-size: 2.4rem;
+  }
+
+  .au-story {
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  .au-story-image {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+
+  .au-team-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+  }
+
+  .au-card-body {
+    padding: 16px 14px 20px;
+  }
+
+  .au-card-name {
+    font-size: 1.05rem;
+  }
+
+  .au-cta-text {
+    font-size: 1.15rem;
+  }
+
+  .au-cta-button {
+    padding: 12px 34px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .au-team-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  .au-card-bio {
+    font-size: 0.8rem;
+  }
+
+  .au-card-role {
+    font-size: 0.82rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
