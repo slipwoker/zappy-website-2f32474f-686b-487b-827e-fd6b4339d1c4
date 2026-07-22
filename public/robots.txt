@@ -50,4 +50,4 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://israel-niue-friendship-initiative-2f32474f.zappy5.app/sitemap.xml
+Sitemap: https://example.com/sitemap.xml

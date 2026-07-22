@@ -7,25 +7,25 @@
 ## Pages
 
 ### בית
-https://israel-niue-friendship-initiative-2f32474f.zappy5.app
+https://example.com
 הצטרפו למסע דיפלומטיה אזרחית פורץ דרך בין ישראל לניואה. קידום תיירות, תרבות, מחקר ובריאות בשיתוף קהילות. בואו ליצור גשרים חדשים של רצון טוב בינלאומי.
 
 ### תודה שפניתם אלינו
-https://israel-niue-friendship-initiative-2f32474f.zappy5.app/thank-you
+https://example.com/thank-you
 יוזמת הידידות ישראל-ניואה ISRAEL-NIUE FRIENDSHIP INITIATIVE - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://israel-niue-friendship-initiative-2f32474f.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://israel-niue-friendship-initiative-2f32474f.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://israel-niue-friendship-initiative-2f32474f.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -35,8 +35,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://israel-niue-friendship-initiative-2f32474f.zappy5.app
-- Endpoint: https://israel-niue-friendship-initiative-2f32474f.zappy5.app/api/email/contact-form
+- URL: https://example.com
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -78,6 +78,6 @@ Non-Profit / Paradiplomacy / International Relations
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://israel-niue-friendship-initiative-2f32474f.zappy5.app/sitemap.xml
-- Robots: https://israel-niue-friendship-initiative-2f32474f.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://israel-niue-friendship-initiative-2f32474f.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
