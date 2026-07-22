@@ -5010,6 +5010,385 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+/* Cloned section from URL */
+/* ===== About Section ===== */
+.niue-about-section {
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  background: #ffffff;
+  color: #1a2a4a;
+  padding: 0;
+  margin: 0;
+}
+
+/* About Header */
+.niue-about-header {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px 40px;
+  text-align: center;
+}
+
+.niue-about-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #1a2a4a;
+  margin: 0 0 8px;
+  line-height: 1.3;
+}
+
+.niue-about-subtitle {
+  font-size: 1.1rem;
+  color: #0E6B73;
+  margin: 0 0 20px;
+  font-weight: 500;
+}
+
+.niue-about-divider {
+  width: 60px;
+  height: 3px;
+  background: #c0392b;
+  margin: 0 auto 28px;
+  border-radius: 2px;
+}
+
+.niue-about-text {
+  text-align: right;
+  margin-bottom: 32px;
+}
+
+.niue-about-text p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #334155;
+  margin: 0 0 16px;
+}
+
+.niue-about-text p:last-child {
+  margin-bottom: 0;
+}
+
+.niue-cta-button {
+  display: inline-block;
+  background: #1a2a4a;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 36px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 8px rgba(26, 42, 74, 0.2);
+  cursor: pointer;
+}
+
+.niue-cta-button:hover {
+  background: #0E6B73;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(14, 107, 115, 0.3);
+}
+
+.niue-cta-button:focus-visible {
+  outline: 3px solid #0E6B73;
+  outline-offset: 2px;
+}
+
+/* Flags Section */
+.niue-flags-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 20px 50px;
+}
+
+.niue-flags-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Mission Section */
+.niue-mission-section {
+  background: #f8fafc;
+  padding: 60px 20px;
+}
+
+.niue-mission-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.niue-mission-text {
+  text-align: right;
+}
+
+.niue-mission-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a2a4a;
+  margin: 0 0 24px;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.niue-mission-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 3px;
+  background: #c0392b;
+  border-radius: 2px;
+}
+
+.niue-mission-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.niue-mission-list li {
+  position: relative;
+  padding-right: 28px;
+  margin-bottom: 14px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #334155;
+}
+
+.niue-mission-list li::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  background: #0E6B73;
+  border-radius: 50%;
+}
+
+.niue-mission-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #475569;
+  margin: 0 0 14px;
+}
+
+.niue-mission-text p:last-child {
+  margin-bottom: 0;
+}
+
+.niue-mission-image-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.niue-mission-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Footer */
+.niue-footer {
+  background: #1a2a4a;
+  color: #e2e8f0;
+  padding: 60px 20px 0;
+}
+
+.niue-footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.niue-footer-brand {
+  text-align: right;
+}
+
+.niue-footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.niue-logo-icon {
+  font-size: 2rem;
+}
+
+.niue-logo-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.niue-footer-tagline {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+
+.niue-footer-social {
+  display: flex;
+  gap: 10px;
+}
+
+.niue-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.niue-social-link:hover {
+  background: #0E6B73;
+  transform: translateY(-2px);
+}
+
+.niue-social-link:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.niue-footer-contact {
+  text-align: right;
+}
+
+.niue-footer-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.niue-contact-name,
+.niue-contact-email,
+.niue-contact-phone,
+.niue-contact-address {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  margin: 0 0 10px;
+  line-height: 1.6;
+}
+
+.niue-footer-nav {
+  text-align: right;
+}
+
+.niue-footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.niue-footer-links li {
+  margin-bottom: 8px;
+}
+
+.niue-footer-links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease, padding-right 0.2s ease;
+  display: inline-block;
+}
+
+.niue-footer-links a:hover {
+  color: #ffffff;
+  padding-right: 6px;
+}
+
+.niue-footer-links a:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.niue-footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px 20px;
+  text-align: center;
+}
+
+.niue-footer-bottom p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .niue-about-title {
+    font-size: 1.8rem;
+  }
+
+  .niue-about-text p {
+    font-size: 0.95rem;
+  }
+
+  .niue-cta-button {
+    padding: 12px 28px;
+    font-size: 0.95rem;
+  }
+
+  .niue-mission-content {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .niue-mission-image-wrapper {
+    order: -1;
+  }
+
+  .niue-footer-container {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .niue-footer-brand,
+  .niue-footer-contact,
+  .niue-footer-nav {
+    text-align: center;
+  }
+
+  .niue-footer-logo {
+    justify-content: center;
+  }
+
+  .niue-footer-social {
+    justify-content: center;
+  }
+
+  .niue-footer-heading {
+    text-align: center;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
