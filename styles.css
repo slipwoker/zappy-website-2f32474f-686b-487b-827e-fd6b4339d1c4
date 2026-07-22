@@ -5874,6 +5874,194 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     font-size: 0.82rem;
   }
 }
+
+/* Cloned section from URL */
+.about-editorial {
+  background: #ffffff;
+  padding: 60px 20px;
+  font-family: system-ui, sans-serif;
+  color: #1a1a1a;
+  direction: rtl;
+}
+
+.about-editorial__container {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+/* Hero Image */
+.about-editorial__hero {
+  margin: 0 0 50px 0;
+  padding: 0;
+}
+
+.about-editorial__hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 480px;
+}
+
+/* Introductory Paragraphs */
+.about-editorial__intro {
+  margin-bottom: 50px;
+}
+
+.about-editorial__lead {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.45;
+  color: #111111;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.01em;
+}
+
+.about-editorial__lead:last-child {
+  margin-bottom: 0;
+}
+
+/* Secondary Media */
+.about-editorial__media {
+  margin-bottom: 50px;
+}
+
+.about-editorial__media-placeholder {
+  background: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  padding: 60px 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-editorial__media-text {
+  font-size: 0.95rem;
+  color: #888888;
+  letter-spacing: 0.05em;
+}
+
+/* Section Titles */
+.about-editorial__section-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #555555;
+  margin: 0 0 18px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Mission */
+.about-editorial__mission {
+  margin-bottom: 50px;
+}
+
+.about-editorial__mission-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-editorial__mission-item {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #333333;
+  margin-bottom: 8px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.about-editorial__mission-item::before {
+  content: "—";
+  position: absolute;
+  right: 0;
+  color: #888888;
+}
+
+/* Board Members */
+.about-editorial__board {
+  margin-bottom: 50px;
+}
+
+.about-editorial__board-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-editorial__board-member {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #333333;
+}
+
+.about-editorial__board-name {
+  font-weight: 700;
+  color: #111111;
+}
+
+.about-editorial__board-role {
+  font-style: italic;
+  color: #666666;
+}
+
+/* Blockquote */
+.about-editorial__quote {
+  background: #f7f7f7;
+  border-right: 3px solid var(--primary, #0E6B73);
+  padding: 28px 32px;
+  margin: 0;
+}
+
+.about-editorial__quote-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333333;
+  margin: 0 0 14px 0;
+  font-style: italic;
+  quotes: none;
+}
+
+.about-editorial__quote-attribution {
+  font-size: 0.85rem;
+  font-style: normal;
+  color: #777777;
+  display: block;
+  text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-editorial {
+    padding: 40px 16px;
+  }
+
+  .about-editorial__lead {
+    font-size: 1.35rem;
+  }
+
+  .about-editorial__hero {
+    margin-bottom: 36px;
+  }
+
+  .about-editorial__intro,
+  .about-editorial__media,
+  .about-editorial__mission,
+  .about-editorial__board {
+    margin-bottom: 36px;
+  }
+
+  .about-editorial__quote {
+    padding: 20px 20px;
+  }
+
+  .about-editorial__quote-text {
+    font-size: 0.95rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
