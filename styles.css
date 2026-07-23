@@ -7713,6 +7713,452 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     font-size: 0.88rem;
   }
 }
+
+/* Cloned section from URL */
+/* ===== Consulate Section Container ===== */
+.ms-consulate-section {
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #f4f6f8;
+  color: #1a1a2e;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 30px rgba(0,0,0,0.05);
+}
+
+/* ===== Hero Banner ===== */
+.ms-hero {
+  display: flex;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.ms-hero-image {
+  flex: 1 1 50%;
+  position: relative;
+  overflow: hidden;
+}
+.ms-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.ms-hero-panel {
+  flex: 1 1 50%;
+  background: var(--primary, #0E6B73);
+  background: linear-gradient(135deg, #0E6B73 0%, #1a3a4a 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 40px;
+  position: relative;
+  clip-path: polygon(12% 0%, 100% 0%, 100% 100%, 0% 100%);
+  margin-right: -5%;
+}
+.ms-hero-starburst {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.ms-hero-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+.ms-hero-subtitle {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #e0f0f3;
+  margin: 0;
+  z-index: 1;
+}
+
+/* ===== Horizontal Navigation ===== */
+.ms-nav {
+  background: #ffffff;
+  border-bottom: 1px solid #e0e5ea;
+  padding: 0 20px;
+}
+.ms-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+.ms-nav-link {
+  display: inline-block;
+  padding: 14px 22px;
+  text-decoration: none;
+  color: #6c7a89;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 24px;
+  transition: all 0.25s ease;
+  position: relative;
+}
+.ms-nav-link:hover {
+  color: #2c3e50;
+  background-color: #f0f3f5;
+}
+.ms-nav-link--active {
+  background-color: #e67e22;
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(230, 126, 34, 0.3);
+}
+.ms-nav-link--active:hover {
+  background-color: #d35400;
+  color: #ffffff;
+}
+
+/* ===== Main Content Wrapper ===== */
+.ms-content-wrapper {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #e0e5ea;
+  border-top: none;
+  margin: 0;
+  position: relative;
+}
+
+/* ===== Left Column (Main) ===== */
+.ms-main {
+  flex: 1 1 68%;
+  padding: 30px 25px;
+  border-left: 1px solid #e0e5ea;
+}
+.ms-section-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a2e22;
+  margin: 0 0 20px 0;
+  padding-bottom: 12px;
+  border-bottom: 3px solid var(--primary, #0E6B73);
+  display: inline-block;
+}
+
+/* ===== Updates List ===== */
+.ms-updates-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.ms-update-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #edf0f3;
+  gap: 12px;
+}
+.ms-update-item:last-child {
+  border-bottom: none;
+}
+.ms-update-text {
+  flex: 1;
+  font-size: 0.95rem;
+  color: #2c3e50;
+  line-height: 1.5;
+}
+.ms-info-btn {
+  background: none;
+  border: 2px solid #bdc3c7;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  padding: 0;
+  color: #7f8c8d;
+}
+.ms-info-btn:hover {
+  border-color: var(--primary, #0E6B73);
+  color: var(--primary, #0E6B73);
+  background-color: rgba(14, 107, 115, 0.05);
+}
+.ms-info-icon {
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Times New Roman", serif;
+}
+
+/* ===== Right Sidebar ===== */
+.ms-sidebar {
+  flex: 1 1 32%;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Consul Card */
+.ms-consul-card {
+  background: #f8fafb;
+  border: 1px solid #e0e5ea;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.ms-consul-photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px;
+  display: block;
+  border: 3px solid var(--primary, #0E6B73);
+}
+.ms-consul-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a2e22;
+  margin: 0 0 5px;
+}
+.ms-consul-title {
+  font-size: 0.85rem;
+  color: #6c7a89;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Emblem Card */
+.ms-emblem-card {
+  background: #f8fafb;
+  border: 1px solid #e0e5ea;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.ms-emblem-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin: 0 auto 10px;
+  display: block;
+  background: #ffffff;
+  padding: 8px;
+  border: 1px solid #e0e5ea;
+}
+.ms-emblem-caption {
+  font-size: 0.85rem;
+  color: #6c7a89;
+  margin: 0;
+}
+
+/* ===== Far Right Vertical Navigation ===== */
+.ms-vertical-nav {
+  flex: 0 0 170px;
+  background: #ffffff;
+  border-right: 1px solid #e0e5ea;
+  padding: 20px 10px;
+}
+.ms-vertical-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ms-vertical-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  text-decoration: none;
+  color: #34495e;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+.ms-vertical-link:hover {
+  background-color: #f0f6f8;
+  color: var(--primary, #0E6B73);
+}
+.ms-nav-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bdc3c7;
+  flex-shrink: 0;
+  transition: background-color 0.2s ease;
+}
+.ms-vertical-link:hover .ms-nav-dot {
+  background-color: var(--primary, #0E6B73);
+}
+
+/* ===== Footer ===== */
+.ms-footer {
+  background: #1a2e22;
+  background: var(--gradient-primary, linear-gradient(135deg, #1A2E22 0%, #2D6A4F 100%));
+  color: #d5e8d4;
+  padding: 16px 25px;
+}
+.ms-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.ms-footer-text {
+  font-size: 0.8rem;
+  margin: 0;
+  color: #c8dcc8;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 1024px) {
+  .ms-hero {
+    height: 220px;
+  }
+  .ms-hero-panel {
+    padding: 25px;
+  }
+  .ms-hero-title {
+    font-size: 1.5rem;
+  }
+  .ms-hero-subtitle {
+    font-size: 1.1rem;
+  }
+  .ms-vertical-nav {
+    flex: 0 0 140px;
+  }
+  .ms-vertical-link {
+    font-size: 0.8rem;
+    padding: 7px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ms-hero {
+    flex-direction: column;
+    height: auto;
+  }
+  .ms-hero-image {
+    height: 180px;
+    flex: none;
+  }
+  .ms-hero-panel {
+    clip-path: none;
+    margin-right: 0;
+    align-items: center;
+    text-align: center;
+    padding: 25px 20px;
+  }
+  .ms-hero-title {
+    font-size: 1.4rem;
+  }
+  .ms-hero-subtitle {
+    font-size: 1rem;
+  }
+  .ms-nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ms-content-wrapper {
+    flex-direction: column;
+  }
+  .ms-vertical-nav {
+    order: -1;
+    flex: none;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e0e5ea;
+    padding: 10px;
+  }
+  .ms-vertical-nav-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+  }
+  .ms-vertical-link {
+    font-size: 0.75rem;
+    padding: 6px 10px;
+    gap: 6px;
+  }
+  .ms-main {
+    border-left: none;
+    padding: 20px 15px;
+  }
+  .ms-sidebar {
+    padding: 20px 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .ms-consul-card,
+  .ms-emblem-card {
+    flex: 1 1 45%;
+    min-width: 200px;
+  }
+  .ms-footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .ms-hero-image {
+    height: 140px;
+  }
+  .ms-hero-panel {
+    padding: 20px 15px;
+  }
+  .ms-hero-title {
+    font-size: 1.2rem;
+  }
+  .ms-hero-subtitle {
+    font-size: 0.9rem;
+  }
+  .ms-nav-link {
+    padding: 10px 14px;
+    font-size: 0.85rem;
+  }
+  .ms-section-heading {
+    font-size: 1.2rem;
+  }
+  .ms-update-text {
+    font-size: 0.85rem;
+  }
+  .ms-sidebar {
+    flex-direction: column;
+  }
+  .ms-consul-card,
+  .ms-emblem-card {
+    flex: none;
+    width: 100%;
+  }
+  .ms-consul-photo {
+    width: 100px;
+    height: 100px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
