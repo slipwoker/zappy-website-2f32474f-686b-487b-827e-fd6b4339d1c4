@@ -8159,6 +8159,420 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     height: 100px;
   }
 }
+
+/* AI-generated section */
+/* ===== DIPLOMATIC SECTION ===== */
+.diplo-section {
+  background-color: #20252A;
+  color: #F5EBD8;
+  font-family: system-ui, sans-serif;
+  padding: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.3);
+}
+
+/* ===== BANNER ===== */
+.diplo-banner {
+  background: linear-gradient(135deg, #1A2E22 0%, #2D6A4F 100%);
+  padding: 48px 40px 40px;
+  position: relative;
+  overflow: hidden;
+}
+.diplo-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(143,216,210,0.12) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.diplo-banner__content {
+  position: relative;
+  z-index: 1;
+}
+.diplo-banner__title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #F5EBD8;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.5px;
+  line-height: 1.3;
+}
+.diplo-banner__subtitle {
+  font-size: 1.05rem;
+  color: #8FD8D2;
+  margin: 0;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* ===== NAVIGATION BAR ===== */
+.diplo-nav {
+  background: rgba(255,255,255,0.04);
+  border-bottom: 1px solid rgba(143,216,210,0.15);
+  padding: 0 40px;
+}
+.diplo-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0;
+}
+.diplo-nav__item {
+  margin: 0;
+}
+.diplo-nav__link {
+  display: block;
+  padding: 16px 24px;
+  color: #8FD8D2;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+.diplo-nav__link:hover {
+  color: #F5EBD8;
+  background: rgba(143,216,210,0.06);
+}
+.diplo-nav__link--active {
+  color: #F5EBD8;
+  border-bottom-color: #D94C45;
+  font-weight: 600;
+}
+.diplo-nav__link--lang {
+  margin-right: auto;
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.diplo-nav__link--lang:hover {
+  opacity: 1;
+}
+
+/* ===== THREE-COLUMN GRID ===== */
+.diplo-grid {
+  display: grid;
+  grid-template-columns: 1fr 280px 260px;
+  gap: 0;
+  background: #20252A;
+}
+
+/* ===== CARDS (Glass-morphism) ===== */
+.diplo-card {
+  background: rgba(245,235,216,0.04);
+  border: 1px solid rgba(143,216,210,0.12);
+  border-radius: 12px;
+  padding: 24px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+.diplo-card:hover {
+  background: rgba(245,235,216,0.06);
+  border-color: rgba(143,216,210,0.2);
+}
+.diplo-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.diplo-card__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #F5EBD8;
+  margin: 0;
+}
+.diplo-card__icon {
+  color: #8FD8D2;
+  display: flex;
+  align-items: center;
+}
+
+/* ===== LEFT COLUMN ===== */
+.diplo-grid__left {
+  padding: 32px 28px 32px 16px;
+}
+.diplo-card--updates {
+  height: 100%;
+}
+
+/* Update List */
+.diplo-updates {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.diplo-updates__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 14px;
+  background: rgba(245,235,216,0.025);
+  border-radius: 8px;
+  border-right: 3px solid transparent;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+.diplo-updates__item:hover {
+  background: rgba(143,216,210,0.06);
+  border-right-color: #0E6B73;
+  transform: translateX(-4px);
+}
+.diplo-updates__dot {
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #D94C45;
+  margin-top: 6px;
+  box-shadow: 0 0 6px rgba(217,76,69,0.5);
+}
+.diplo-updates__text {
+  font-size: 0.95rem;
+  color: #F5EBD8;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* ===== MIDDLE COLUMN ===== */
+.diplo-grid__middle {
+  padding: 32px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Profile Card */
+.diplo-card--profile {
+  text-align: center;
+  padding: 28px 20px 24px;
+}
+.diplo-profile__photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 16px;
+  border: 3px solid #8FD8D2;
+  box-shadow: 0 4px 20px rgba(14,107,115,0.3);
+}
+.diplo-profile__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.diplo-profile__name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #F5EBD8;
+  margin: 0 0 6px 0;
+}
+.diplo-profile__role {
+  font-size: 0.8rem;
+  color: #8FD8D2;
+  margin: 0;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+
+/* Emblem Card */
+.diplo-card--emblem {
+  text-align: center;
+  padding: 24px 20px;
+}
+.diplo-emblem__seal {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(143,216,210,0.3);
+  background: rgba(245,235,216,0.05);
+}
+.diplo-emblem__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.diplo-emblem__label {
+  font-size: 0.8rem;
+  color: #8FD8D2;
+  margin: 0;
+  opacity: 0.7;
+}
+
+/* ===== RIGHT COLUMN ===== */
+.diplo-grid__right {
+  padding: 32px 16px 32px 28px;
+}
+.diplo-card--topics {
+  height: 100%;
+}
+.diplo-topics__title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #F5EBD8;
+  margin: 0 0 18px 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(143,216,210,0.15);
+}
+.diplo-topics__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.diplo-topics__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.diplo-topics__item:hover {
+  background: rgba(143,216,210,0.06);
+}
+.diplo-topics__item:hover .diplo-topics__dot {
+  background: #D94C45;
+  box-shadow: 0 0 8px rgba(217,76,69,0.6);
+}
+.diplo-topics__dot {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #8FD8D2;
+  transition: all 0.2s ease;
+}
+.diplo-topics__link {
+  color: #F5EBD8;
+  text-decoration: none;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+.diplo-topics__link:hover {
+  opacity: 1;
+  color: #8FD8D2;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+  .diplo-grid {
+    grid-template-columns: 1fr 240px;
+  }
+  .diplo-grid__right {
+    grid-column: 1 / -1;
+    padding: 0 28px 32px;
+  }
+  .diplo-card--topics {
+    padding: 20px 24px;
+  }
+  .diplo-topics__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .diplo-topics__item {
+    flex: 0 1 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .diplo-banner {
+    padding: 32px 20px 28px;
+  }
+  .diplo-banner__title {
+    font-size: 1.6rem;
+  }
+  .diplo-banner__subtitle {
+    font-size: 0.9rem;
+  }
+  .diplo-nav {
+    padding: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .diplo-nav__list {
+    flex-wrap: nowrap;
+    min-width: max-content;
+  }
+  .diplo-nav__link {
+    padding: 14px 16px;
+    font-size: 0.85rem;
+  }
+  .diplo-grid {
+    grid-template-columns: 1fr;
+  }
+  .diplo-grid__left {
+    padding: 20px 16px 8px;
+  }
+  .diplo-grid__middle {
+    padding: 16px 16px;
+    flex-direction: row;
+    gap: 12px;
+  }
+  .diplo-card--profile,
+  .diplo-card--emblem {
+    flex: 1;
+  }
+  .diplo-profile__photo {
+    width: 70px;
+    height: 70px;
+  }
+  .diplo-profile__name {
+    font-size: 1rem;
+  }
+  .diplo-profile__role {
+    font-size: 0.72rem;
+  }
+  .diplo-emblem__seal {
+    width: 60px;
+    height: 60px;
+  }
+  .diplo-grid__right {
+    padding: 8px 16px 24px;
+  }
+  .diplo-topics__list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .diplo-banner__title {
+    font-size: 1.35rem;
+  }
+  .diplo-grid__middle {
+    flex-direction: column;
+  }
+  .diplo-updates__item {
+    padding: 10px 10px;
+  }
+  .diplo-updates__text {
+    font-size: 0.85rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
